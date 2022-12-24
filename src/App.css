@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: rgb(10, 92, 85);
+  text-align: center
+}
+
+.app-title {
+  font-family: Lobster, sans-serif;
+  margin-top: 50px;
+  font-size: 50px;
+  color: rgb(6, 53, 49);
+  letter-spacing: 0.2rem;
+}
+
+.app-title::before {
+  content: "Kittens Rolodex";
+  margin-top: 39.5px;
+  position: absolute;
+  transform: rotateX(180deg);
+  background: linear-gradient(to top, rgb(6, 53, 49), transparent 85%);
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0.4;
+}
