@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css');
 
 body {
   margin: 0;
@@ -26,4 +27,13 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   opacity: 0.4;
+}
+
+.copyRight {
+  padding-bottom: 50px;
+  color: white;
+  font-size: 0.65rem;
+}
+.copyRight i {
+  margin: 3px 5px;
 }

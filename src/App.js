@@ -62,6 +62,12 @@ class App extends Component {
           })
         } */}
         <CardList monsters={filtMonstersArr} />
+
+        <div class="copyRight">
+          <i class="fa-regular fa-registered"></i>
+          <span>Danilo 2022</span>
+        </div>
+
       </div>
     );
   }
