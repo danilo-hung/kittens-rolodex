@@ -6,14 +6,13 @@ import "./card-list.style.css";
 class CardList extends Component {
 
     render() {
-        console.log("Cardlist render")
         const { monsters } = this.props
         return (
             <div className="card-list">
                 
                 {monsters.map((monster) => {
                     return (
-                        <Card content={monster} />
+                        <Card key={monster.id} content={monster} />
                     )
                 })
                 }

@@ -7,7 +7,7 @@ class Card extends Component {
 
         return (
             <div className="card-box" >
-                <div className="card-container" key={id}>
+                <div className="card-container">
                     <div className="card-line"></div>
                     <div className="img-box" >
                         <img
